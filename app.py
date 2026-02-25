@@ -25,7 +25,7 @@ from reportlab.lib.enums import TA_CENTER
 # =====================================================================================
 APP_TITLE = "Department Quiz System"
 QUESTIONS_PER_QUIZ = 20
-QUIZ_DURATION_MINUTES = 5
+QUIZ_DURATION_MINUTES = 10
 QUIZ_DURATION_SECONDS = QUIZ_DURATION_MINUTES * 60
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "admin123"
