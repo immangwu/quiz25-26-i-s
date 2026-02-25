@@ -1,0 +1,14 @@
+# Streamlit secrets (GCP credentials — never commit this)
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude memory
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
