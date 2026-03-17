@@ -918,6 +918,274 @@ NDT_QUIZ04_QUESTION_BANK = [
 ]
 
 # =====================================================================================
+# --- 🏭 EMM QUESTION BANK - QUIZ 01 (Alloys, Phase Diagrams & Heat Treatment) ---
+# =====================================================================================
+
+EMM_QUIZ01_QUESTION_BANK = [
+    {"id": 1, "question": "What is an alloy?",
+     "options": ["A pure metal", "A mixture of two or more elements, at least one being metal", "A compound of non-metals", "A gas mixture"],
+     "correct": 1},
+    {"id": 2, "question": "What does a phase diagram represent?",
+     "options": ["Mechanical properties of metals", "Relationship between temperature, composition, and phases", "Chemical reactions only", "Electrical conductivity"],
+     "correct": 1},
+    {"id": 3, "question": "What is a phase?",
+     "options": ["A type of alloy", "A homogeneous and physically distinct portion of a system", "A chemical compound only", "A mixture of gases"],
+     "correct": 1},
+    {"id": 4, "question": "In a binary phase diagram, how many components are present?",
+     "options": ["One", "Two", "Three", "Four"],
+     "correct": 1},
+    {"id": 5, "question": "The maximum solubility of carbon in austenite is approximately:",
+     "options": ["0.02%", "0.8%", "2.14%", "4.3%"],
+     "correct": 2},
+    {"id": 6, "question": "The eutectoid composition in the Iron-Carbon diagram is:",
+     "options": ["0.02% C", "0.8% C", "2.14% C", "4.3% C"],
+     "correct": 1},
+    {"id": 7, "question": "The eutectoid reaction produces:",
+     "options": ["Ferrite and cementite", "Austenite and ferrite", "Pearlite", "Martensite"],
+     "correct": 2},
+    {"id": 8, "question": "Pearlite consists of:",
+     "options": ["Ferrite and austenite", "Ferrite and cementite", "Cementite and martensite", "Austenite only"],
+     "correct": 1},
+    {"id": 9, "question": "Steel is primarily an alloy of:",
+     "options": ["Iron and oxygen", "Iron and carbon", "Iron and nitrogen", "Iron and sulfur"],
+     "correct": 1},
+    {"id": 10, "question": "Low carbon steel contains carbon up to:",
+     "options": ["0.25%", "0.8%", "1.5%", "2.0%"],
+     "correct": 0},
+    {"id": 11, "question": "Cast iron typically contains carbon in the range of:",
+     "options": ["0-0.25%", "0.25-0.8%", "2-4%", "5-7%"],
+     "correct": 2},
+    {"id": 12, "question": "Which type of cast iron has graphite flakes?",
+     "options": ["White cast iron", "Grey cast iron", "Ductile iron", "Malleable iron"],
+     "correct": 1},
+    {"id": 13, "question": "Which microstructure is hardest?",
+     "options": ["Ferrite", "Pearlite", "Austenite", "Martensite"],
+     "correct": 3},
+    {"id": 14, "question": "Ferrite is:",
+     "options": ["Hard and brittle", "Soft and ductile", "Very hard", "Non-metallic"],
+     "correct": 1},
+    {"id": 15, "question": "Cementite (Fe3C) is:",
+     "options": ["Soft", "Ductile", "Hard and brittle", "Liquid"],
+     "correct": 2},
+    {"id": 16, "question": "Full annealing is done to:",
+     "options": ["Increase hardness", "Reduce brittleness", "Improve machinability and softness", "Increase strength only"],
+     "correct": 2},
+    {"id": 17, "question": "Normalizing differs from annealing in that it involves:",
+     "options": ["Faster cooling in air", "Cooling in furnace", "No heating", "Quenching in water"],
+     "correct": 0},
+    {"id": 18, "question": "Hardening of steel is achieved by:",
+     "options": ["Slow cooling", "Rapid cooling (quenching)", "Heating only", "Air cooling"],
+     "correct": 1},
+    {"id": 19, "question": "Tempering is done after hardening to:",
+     "options": ["Increase brittleness", "Reduce hardness and improve toughness", "Melt the metal", "Increase carbon content"],
+     "correct": 1},
+    {"id": 20, "question": "Spheroidising heat treatment results in:",
+     "options": ["Needle-like structure", "Spherical cementite particles", "Liquid structure", "No structural change"],
+     "correct": 1},
+]
+
+# =====================================================================================
+# --- 🏭 EMM QUESTION BANK - QUIZ 02 (TTT, CCT & Surface Hardening) ---
+# =====================================================================================
+
+EMM_QUIZ02_QUESTION_BANK = [
+    {"id": 1, "question": "What does a TTT diagram represent?",
+     "options": ["Time vs temperature vs transformation of phases", "Stress vs strain curve", "Pressure vs volume", "Hardness vs composition"],
+     "correct": 0},
+    {"id": 2, "question": "The full form of TTT diagram is:",
+     "options": ["Time-Temperature-Transformation", "Temperature-Time-Testing", "Thermal Treatment Table", "Time-Test-Temperature"],
+     "correct": 0},
+    {"id": 3, "question": "TTT diagram is also known as:",
+     "options": ["Cooling curve", "Isothermal transformation diagram", "Stress diagram", "Phase rule diagram"],
+     "correct": 1},
+    {"id": 4, "question": "In a TTT diagram, the 'nose' represents:",
+     "options": ["Maximum temperature", "Minimum transformation time", "Maximum hardness", "Cooling rate"],
+     "correct": 1},
+    {"id": 5, "question": "Continuous Cooling Transformation (CCT) diagram differs from TTT because:",
+     "options": ["Cooling is constant temperature", "Cooling is continuous instead of isothermal", "No transformation occurs", "Only heating is shown"],
+     "correct": 1},
+    {"id": 6, "question": "Austempering produces which microstructure?",
+     "options": ["Martensite", "Bainite", "Ferrite", "Pearlite"],
+     "correct": 1},
+    {"id": 7, "question": "The main advantage of austempering is:",
+     "options": ["Increased brittleness", "Reduced distortion and cracking", "Increased melting point", "Reduced strength"],
+     "correct": 1},
+    {"id": 8, "question": "Martempering is primarily used to:",
+     "options": ["Increase hardness only", "Reduce internal stresses and distortion", "Melt the steel", "Increase carbon content"],
+     "correct": 1},
+    {"id": 9, "question": "In martempering, steel is quenched to:",
+     "options": ["Room temperature immediately", "Just above martensite start temperature", "Melting point", "Zero degrees"],
+     "correct": 1},
+    {"id": 10, "question": "Hardenability refers to:",
+     "options": ["Surface hardness", "Ability to resist wear", "Depth to which hardness is achieved", "Ductility"],
+     "correct": 2},
+    {"id": 11, "question": "The Jominy end quench test measures:",
+     "options": ["Toughness", "Hardenability", "Elasticity", "Thermal conductivity"],
+     "correct": 1},
+    {"id": 12, "question": "In the Jominy test, cooling is done using:",
+     "options": ["Oil", "Air", "Water jet", "Furnace"],
+     "correct": 2},
+    {"id": 13, "question": "Higher hardenability means:",
+     "options": ["Hardness only at surface", "Uniform hardness throughout thickness", "No hardness", "Only ductility"],
+     "correct": 1},
+    {"id": 14, "question": "Case hardening is used to:",
+     "options": ["Soften the surface", "Harden the core", "Harden the surface while keeping core tough", "Melt the material"],
+     "correct": 2},
+    {"id": 15, "question": "Carburizing involves:",
+     "options": ["Adding nitrogen to surface", "Adding carbon to surface", "Removing carbon", "Adding oxygen"],
+     "correct": 1},
+    {"id": 16, "question": "Nitriding introduces which element into steel?",
+     "options": ["Carbon", "Nitrogen", "Oxygen", "Hydrogen"],
+     "correct": 1},
+    {"id": 17, "question": "Cyaniding is a process involving:",
+     "options": ["Only carbon", "Only nitrogen", "Both carbon and nitrogen", "Oxygen and hydrogen"],
+     "correct": 2},
+    {"id": 18, "question": "Carbonitriding is similar to carburizing but includes:",
+     "options": ["Oxygen", "Nitrogen", "Hydrogen", "Sulfur"],
+     "correct": 1},
+    {"id": 19, "question": "Flame hardening uses:",
+     "options": ["Electric current", "Chemical reaction", "Oxy-fuel flame heating", "Laser only"],
+     "correct": 2},
+    {"id": 20, "question": "Induction hardening is based on:",
+     "options": ["Chemical diffusion", "Magnetic induction heating", "Gas heating", "Solar energy"],
+     "correct": 1},
+]
+
+# =====================================================================================
+# --- 🏭 EMM QUESTION BANK - QUIZ 03 (Alloy Steels & Non-Ferrous Alloys) ---
+# =====================================================================================
+
+EMM_QUIZ03_QUESTION_BANK = [
+    {"id": 1, "question": "Manganese (Mn) in steel primarily improves:",
+     "options": ["Corrosion resistance only", "Hardenability and strength", "Electrical conductivity", "Brittleness"],
+     "correct": 1},
+    {"id": 2, "question": "Silicon (Si) is mainly added to steel to:",
+     "options": ["Increase ductility", "Act as a deoxidizer", "Reduce hardness", "Increase density"],
+     "correct": 1},
+    {"id": 3, "question": "Chromium (Cr) improves:",
+     "options": ["Machinability only", "Corrosion and wear resistance", "Softness", "Melting point reduction"],
+     "correct": 1},
+    {"id": 4, "question": "Molybdenum (Mo) is added to steel to:",
+     "options": ["Reduce strength", "Improve high-temperature strength", "Increase brittleness", "Reduce hardenability"],
+     "correct": 1},
+    {"id": 5, "question": "Vanadium (V) helps in:",
+     "options": ["Grain refinement", "Increasing melting point only", "Reducing hardness", "Making steel brittle"],
+     "correct": 0},
+    {"id": 6, "question": "Stainless steel contains a minimum of about:",
+     "options": ["2% Cr", "5% Cr", "10.5% Cr", "20% Cr"],
+     "correct": 2},
+    {"id": 7, "question": "Tool steels are mainly used for:",
+     "options": ["Electrical wiring", "Cutting and shaping tools", "Decorative items", "Heat insulation"],
+     "correct": 1},
+    {"id": 8, "question": "HSLA steels are known for:",
+     "options": ["High carbon content", "High strength with low alloy content", "Low strength", "Poor weldability"],
+     "correct": 1},
+    {"id": 9, "question": "Maraging steels derive strength from:",
+     "options": ["Carbon content", "Precipitation hardening", "Cold working only", "Annealing"],
+     "correct": 1},
+    {"id": 10, "question": "Grey cast iron contains:",
+     "options": ["Cementite", "Graphite flakes", "Pearlite only", "Austenite"],
+     "correct": 1},
+    {"id": 11, "question": "White cast iron is characterized by:",
+     "options": ["High ductility", "Graphite nodules", "Hard and brittle structure", "Softness"],
+     "correct": 2},
+    {"id": 12, "question": "Spheroidal (ductile) cast iron contains graphite in:",
+     "options": ["Flakes", "Nodules", "Layers", "Sheets"],
+     "correct": 1},
+    {"id": 13, "question": "Malleable cast iron is produced by:",
+     "options": ["Rapid cooling", "Heat treatment of white cast iron", "Adding chromium", "Adding aluminum"],
+     "correct": 1},
+    {"id": 14, "question": "Brass is an alloy of:",
+     "options": ["Copper and tin", "Copper and zinc", "Copper and nickel", "Copper and aluminum"],
+     "correct": 1},
+    {"id": 15, "question": "Bronze is mainly an alloy of:",
+     "options": ["Copper and zinc", "Copper and tin", "Copper and nickel", "Copper and iron"],
+     "correct": 1},
+    {"id": 16, "question": "Cupronickel is known for:",
+     "options": ["Poor corrosion resistance", "High corrosion resistance in seawater", "Brittleness", "Low strength"],
+     "correct": 1},
+    {"id": 17, "question": "Precipitation strengthening in Al-Cu alloys involves:",
+     "options": ["Rapid cooling only", "Formation of fine precipitates", "Grain growth", "Oxidation"],
+     "correct": 1},
+    {"id": 18, "question": "Titanium alloys are widely used due to:",
+     "options": ["Low strength", "High strength-to-weight ratio", "High density", "Poor corrosion resistance"],
+     "correct": 1},
+    {"id": 19, "question": "Nickel-based superalloys are mainly used in:",
+     "options": ["Electrical wires", "High-temperature applications like turbines", "Furniture", "Packaging"],
+     "correct": 1},
+    {"id": 20, "question": "Shape memory alloys exhibit:",
+     "options": ["Permanent deformation", "Ability to return to original shape after deformation", "High brittleness", "Low strength"],
+     "correct": 1},
+]
+
+# =====================================================================================
+# --- 🏭 EMM QUESTION BANK - QUIZ 04 (Polymers, Ceramics & Composites) ---
+# =====================================================================================
+
+EMM_QUIZ04_QUESTION_BANK = [
+    {"id": 1, "question": "Polymers are:",
+     "options": ["Pure metals", "Long-chain molecules made of repeating units", "Ceramic compounds", "Gaseous mixtures"],
+     "correct": 1},
+    {"id": 2, "question": "Thermoplastics are polymers that:",
+     "options": ["Cannot be reshaped", "Soften on heating and can be remolded", "Are always brittle", "Are cross-linked permanently"],
+     "correct": 1},
+    {"id": 3, "question": "Thermosetting polymers are characterized by:",
+     "options": ["Reusability on heating", "Linear structure", "Permanent cross-linking", "Low strength"],
+     "correct": 2},
+    {"id": 4, "question": "Polyethylene (PE) is widely used for:",
+     "options": ["High-temperature turbines", "Packaging materials", "Cutting tools", "Electrical motors"],
+     "correct": 1},
+    {"id": 5, "question": "Polypropylene (PP) is known for:",
+     "options": ["Low chemical resistance", "High fatigue resistance", "Brittleness", "High density"],
+     "correct": 1},
+    {"id": 6, "question": "Polystyrene (PS) is generally:",
+     "options": ["Flexible", "Tough", "Brittle", "Elastic"],
+     "correct": 2},
+    {"id": 7, "question": "PVC (Polyvinyl chloride) is commonly used in:",
+     "options": ["Aircraft engines", "Pipes and cables", "Cutting tools", "Turbines"],
+     "correct": 1},
+    {"id": 8, "question": "PMMA is also known as:",
+     "options": ["Nylon", "Acrylic (plexiglass)", "Teflon", "Bakelite"],
+     "correct": 1},
+    {"id": 9, "question": "PET is commonly used in:",
+     "options": ["Electrical wiring", "Beverage bottles", "Engine parts", "Bearings"],
+     "correct": 1},
+    {"id": 10, "question": "Polycarbonate (PC) is known for:",
+     "options": ["Brittleness", "High impact strength", "Low transparency", "Poor strength"],
+     "correct": 1},
+    {"id": 11, "question": "Polyamide (PA) is commonly known as:",
+     "options": ["Teflon", "Nylon", "Acrylic", "Polyester"],
+     "correct": 1},
+    {"id": 12, "question": "ABS is widely used for:",
+     "options": ["High-temperature furnaces", "Automotive components", "Cutting tools", "Refractory linings"],
+     "correct": 1},
+    {"id": 13, "question": "PTFE is known for:",
+     "options": ["High friction", "Non-stick properties", "Brittleness", "Low temperature resistance"],
+     "correct": 1},
+    {"id": 14, "question": "Urea formaldehyde is commonly used in:",
+     "options": ["Structural beams", "Adhesives and laminates", "Cutting tools", "Aircraft engines"],
+     "correct": 1},
+    {"id": 15, "question": "Phenol formaldehyde (Bakelite) is known for:",
+     "options": ["High electrical insulation", "Low strength", "Flexibility", "Transparency"],
+     "correct": 0},
+    {"id": 16, "question": "Alumina (Al2O3) is widely used due to:",
+     "options": ["Low hardness", "High wear resistance", "Ductility", "Low melting point"],
+     "correct": 1},
+    {"id": 17, "question": "Silicon carbide (SiC) is mainly used for:",
+     "options": ["Packaging", "Abrasives and cutting tools", "Insulation only", "Decorative items"],
+     "correct": 1},
+    {"id": 18, "question": "Partially stabilized zirconia (PSZ) is known for:",
+     "options": ["Low strength", "Transformation toughening", "Brittleness only", "Low temperature resistance"],
+     "correct": 1},
+    {"id": 19, "question": "Composites are materials made of:",
+     "options": ["Single element", "Two or more distinct materials combined", "Only metals", "Only polymers"],
+     "correct": 1},
+    {"id": 20, "question": "Nanocomposites are characterized by:",
+     "options": ["Large grain size", "Reinforcements at nanoscale", "Low strength", "Only metallic structure"],
+     "correct": 1},
+]
+
+# =====================================================================================
 # --- 🧠 CSE QUESTION BANK - QUIZ 02 (Syntax Analysis & Parsing) ---
 # =====================================================================================
 
@@ -1450,12 +1718,11 @@ def render_department_selection_page():
 
     with col1:
         if st.button(
-            "🔧 Mechanical Engineering\n(NDT — Non-Destructive Testing)",
+            "🔧 Mechanical Engineering\n(NDT / EMM)",
             use_container_width=True, type="primary", key="dept_mech"
         ):
             st.session_state.selected_department = "Mechanical Engineering"
-            st.session_state.course_name = "NDT - Non-Destructive Testing"
-            st.session_state.page = "quiz_selection"
+            st.session_state.page = "subject_selection"
             st.rerun()
 
     with col2:
@@ -1465,6 +1732,44 @@ def render_department_selection_page():
         ):
             st.session_state.selected_department = "Computer Science"
             st.session_state.course_name = "20CS012 - Principles of Compiler Design"
+            st.session_state.page = "quiz_selection"
+            st.rerun()
+
+
+def render_subject_selection_page():
+    """Step 1b — Choose subject within Mechanical Engineering."""
+    st.set_page_config(page_title="Select Subject", layout="centered", page_icon="📋")
+
+    st.title("📋 Step 1b — Select Subject")
+    st.markdown("**Department:** Mechanical Engineering")
+
+    if st.button("← Back to Department Selection", key="back_to_dept_from_subj"):
+        st.session_state.page = "department_selection"
+        st.rerun()
+
+    st.markdown("---")
+    st.subheader("Choose Your Subject")
+    st.markdown("")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        if st.button(
+            "🔩 NDT\n(Non-Destructive Testing)",
+            use_container_width=True, type="primary", key="subj_ndt"
+        ):
+            st.session_state.selected_subject = "NDT"
+            st.session_state.course_name = "NDT - Non-Destructive Testing"
+            st.session_state.page = "quiz_selection"
+            st.rerun()
+
+    with col2:
+        if st.button(
+            "⚙️ EMM\n(Engineering Materials & Metallurgy)",
+            use_container_width=True, type="primary", key="subj_emm"
+        ):
+            st.session_state.selected_subject = "EMM"
+            st.session_state.course_name = "EMM - Engineering Materials & Metallurgy"
             st.session_state.page = "quiz_selection"
             st.rerun()
 
@@ -1480,15 +1785,19 @@ def render_quiz_selection_page():
     st.markdown(f"**Department:** {dept}")
     st.markdown(f"**Course:** {course}")
 
-    if st.button("← Back to Department Selection", key="back_to_dept"):
-        st.session_state.page = "department_selection"
+    if st.button("← Back", key="back_to_dept"):
+        if st.session_state.get("selected_department") == "Mechanical Engineering":
+            st.session_state.page = "subject_selection"
+        else:
+            st.session_state.page = "department_selection"
         st.rerun()
 
     st.markdown("---")
     st.subheader("Choose a Quiz to Attempt")
     st.markdown("")
 
-    if dept == "Mechanical Engineering":
+    subject = st.session_state.get("selected_subject", "NDT")
+    if dept == "Mechanical Engineering" and subject == "NDT":
         quizzes = [
             ("Quiz 01", "Quiz 1", "Visual Inspection & Penetrant Testing",
              "CO1 & CO2 · 20 random questions from a bank of 65"),
@@ -1498,6 +1807,17 @@ def render_quiz_selection_page():
              "CO4 · 20 random questions from a bank of 30"),
             ("Quiz 04", "Quiz 4", "Radiography — Principles, Equipment & Imaging",
              "CO5 · 20 random questions from a bank of 60"),
+        ]
+    elif dept == "Mechanical Engineering" and subject == "EMM":
+        quizzes = [
+            ("Quiz 01", "Quiz 1", "Alloys, Phase Diagrams & Heat Treatment",
+             "20 random questions from a bank of 20"),
+            ("Quiz 02", "Quiz 2", "TTT, CCT & Surface Hardening",
+             "20 random questions from a bank of 20"),
+            ("Quiz 03", "Quiz 3", "Alloy Steels & Non-Ferrous Alloys",
+             "20 random questions from a bank of 20"),
+            ("Quiz 04", "Quiz 4", "Polymers, Ceramics & Composites",
+             "20 random questions from a bank of 20"),
         ]
     else:
         quizzes = [
@@ -1608,12 +1928,18 @@ def proceed_to_quiz(name, reg_no):
         ("Mechanical Engineering", "Quiz 02"): (NDT_QUIZ02_QUESTION_BANK, "NDT_Quiz02"),
         ("Mechanical Engineering", "Quiz 03"): (NDT_QUIZ03_QUESTION_BANK, "NDT_Quiz03"),
         ("Mechanical Engineering", "Quiz 04"): (NDT_QUIZ04_QUESTION_BANK, "NDT_Quiz04"),
+        ("Mechanical Engineering - EMM", "Quiz 01"): (EMM_QUIZ01_QUESTION_BANK, "EMM_Quiz01"),
+        ("Mechanical Engineering - EMM", "Quiz 02"): (EMM_QUIZ02_QUESTION_BANK, "EMM_Quiz02"),
+        ("Mechanical Engineering - EMM", "Quiz 03"): (EMM_QUIZ03_QUESTION_BANK, "EMM_Quiz03"),
+        ("Mechanical Engineering - EMM", "Quiz 04"): (EMM_QUIZ04_QUESTION_BANK, "EMM_Quiz04"),
         ("Computer Science",       "Quiz 01"): (CSE_QUESTION_BANK,        "CSE_Quiz01"),
         ("Computer Science",       "Quiz 02"): (CSE_QUIZ02_QUESTION_BANK, "CSE_Quiz02"),
         ("Computer Science",       "Quiz 03"): (CSE_QUIZ03_QUESTION_BANK, "CSE_Quiz03"),
         ("Computer Science",       "Quiz 04"): (CSE_QUIZ04_QUESTION_BANK, "CSE_Quiz04"),
     }
-    question_bank, sheet_name = bank_map.get((dept, quiz), (NDT_QUESTION_BANK, "NDT_Quiz01"))
+    subject = st.session_state.get("selected_subject", "NDT")
+    lookup_dept = f"Mechanical Engineering - EMM" if (dept == "Mechanical Engineering" and subject == "EMM") else dept
+    question_bank, sheet_name = bank_map.get((lookup_dept, quiz), bank_map.get((dept, quiz), (NDT_QUESTION_BANK, "NDT_Quiz01")))
 
     st.session_state.quiz_sheet_name = sheet_name
     st.session_state.questions = random.sample(question_bank, min(QUESTIONS_PER_QUIZ, len(question_bank)))
@@ -1829,9 +2155,15 @@ def render_admin_dashboard():
             "NDT - Quiz 01 (Visual & Penetrant)":        ("NDT_Quiz01", "Mechanical Engineering"),
             "NDT - Quiz 02 (Thermography & Eddy Current)": ("NDT_Quiz02", "Mechanical Engineering"),
             "NDT - Quiz 03 (Evaluate UT & AE Results)":  ("NDT_Quiz03", "Mechanical Engineering"),
+            "NDT - Quiz 04 (Radiography)":               ("NDT_Quiz04", "Mechanical Engineering"),
+            "EMM - Quiz 01 (Alloys, Phase Diagrams & Heat Treatment)": ("EMM_Quiz01", "Mechanical Engineering - EMM"),
+            "EMM - Quiz 02 (TTT, CCT & Surface Hardening)":            ("EMM_Quiz02", "Mechanical Engineering - EMM"),
+            "EMM - Quiz 03 (Alloy Steels & Non-Ferrous Alloys)":       ("EMM_Quiz03", "Mechanical Engineering - EMM"),
+            "EMM - Quiz 04 (Polymers, Ceramics & Composites)":         ("EMM_Quiz04", "Mechanical Engineering - EMM"),
             "CSE - Quiz 01 (Lexical Analysis)":          ("CSE_Quiz01", "Computer Science"),
             "CSE - Quiz 02 (Syntax Analysis)":           ("CSE_Quiz02", "Computer Science"),
             "CSE - Quiz 03 (Intermediate Code & Types)": ("CSE_Quiz03", "Computer Science"),
+            "CSE - Quiz 04 (Runtime, Code Gen & Optimization)": ("CSE_Quiz04", "Computer Science"),
         }
         department = st.selectbox("Select Quiz:", list(quiz_choices.keys()))
         sheet_name, dept_label = quiz_choices[department]
@@ -1879,7 +2211,7 @@ def render_admin_dashboard():
                 
                 pdf_data = {
                     'department': dept_label,
-                    'course_name': "NDT" if dept_label == "Mechanical Engineering" else "Compiler Design",
+                    'course_name': st.session_state.get('course_name', dept_label),
                     'student_name': student_record['student_name'],
                     'register_number': student_record['register_number'],
                     'timestamp': student_record['timestamp'],
@@ -1908,6 +2240,10 @@ def render_admin_dashboard():
             "NDT - Quiz 02 (Thermography & Eddy Current)":  (NDT_QUIZ02_QUESTION_BANK, "NDT_Quiz02"),
             "NDT - Quiz 03 (Evaluate UT & AE Results)":     (NDT_QUIZ03_QUESTION_BANK, "NDT_Quiz03"),
             "NDT - Quiz 04 (Radiography)":                  (NDT_QUIZ04_QUESTION_BANK, "NDT_Quiz04"),
+            "EMM - Quiz 01 (Alloys, Phase Diagrams & Heat Treatment)": (EMM_QUIZ01_QUESTION_BANK, "EMM_Quiz01"),
+            "EMM - Quiz 02 (TTT, CCT & Surface Hardening)":            (EMM_QUIZ02_QUESTION_BANK, "EMM_Quiz02"),
+            "EMM - Quiz 03 (Alloy Steels & Non-Ferrous Alloys)":       (EMM_QUIZ03_QUESTION_BANK, "EMM_Quiz03"),
+            "EMM - Quiz 04 (Polymers, Ceramics & Composites)":         (EMM_QUIZ04_QUESTION_BANK, "EMM_Quiz04"),
             "CSE - Quiz 01 (Lexical Analysis)":             (CSE_QUESTION_BANK,        "CSE_Quiz01"),
             "CSE - Quiz 02 (Syntax Analysis)":              (CSE_QUIZ02_QUESTION_BANK, "CSE_Quiz02"),
             "CSE - Quiz 03 (Intermediate Code & Types)":    (CSE_QUIZ03_QUESTION_BANK, "CSE_Quiz03"),
@@ -1982,6 +2318,10 @@ def main():
         render_admin_dashboard()
     elif st.session_state.page == "department_selection":
         render_department_selection_page()
+        if not st.session_state.admin_authenticated:
+            render_admin_panel()
+    elif st.session_state.page == "subject_selection":
+        render_subject_selection_page()
         if not st.session_state.admin_authenticated:
             render_admin_panel()
     elif st.session_state.page == "quiz_selection":
