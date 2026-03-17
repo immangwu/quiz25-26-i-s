@@ -955,6 +955,103 @@ CSE_QUIZ03_QUESTION_BANK = [
 ]
 
 # =====================================================================================
+# --- 🧠 CSE QUESTION BANK - QUIZ 04 (Runtime, Code Generation & Optimization) ---
+# =====================================================================================
+
+CSE_QUIZ04_QUESTION_BANK = [
+    {"id": 1, "question": "Which of the following best describes 'storage organization' in a compiler?",
+     "options": ["The way source code is tokenized", "The arrangement of memory into code, static data, heap, and stack segments", "The method used to generate intermediate code", "The process of allocating registers"],
+     "correct": 1},
+    {"id": 2, "question": "In parameter passing, 'call by value' means:",
+     "options": ["The address of the actual parameter is passed to the function", "A copy of the actual parameter's value is passed to the function", "The function can modify the original variable directly", "Parameters are passed through global variables"],
+     "correct": 1},
+    {"id": 3, "question": "A symbol table in a compiler is used to:",
+     "options": ["Store the final machine code instructions", "Keep track of identifiers, their types, scope, and memory locations", "Generate three-address code", "Perform lexical analysis of tokens"],
+     "correct": 1},
+    {"id": 4, "question": "Dynamic storage allocation refers to:",
+     "options": ["Allocation of memory at compile time only", "Memory allocated during program execution (at runtime)", "Allocation of registers to variables", "Static binding of variable names"],
+     "correct": 1},
+    {"id": 5, "question": "Which of the following is a key issue in the design of a code generator?",
+     "options": ["Defining context-free grammar rules", "Input buffering during lexical analysis", "Instruction selection, register allocation, and evaluation order", "Constructing SLR parsing tables"],
+     "correct": 2},
+    {"id": 6, "question": "A basic block in code optimization is defined as:",
+     "options": ["A loop structure in the source program", "A maximal sequence of consecutive instructions with one entry and one exit point", "A group of grammar production rules", "A set of tokens produced by the lexer"],
+     "correct": 1},
+    {"id": 7, "question": "A DAG (Directed Acyclic Graph) in basic block optimization is used to:",
+     "options": ["Represent the control flow of an entire program", "Detect and eliminate common subexpressions and redundant computations within a block", "Construct the symbol table", "Perform bottom-up parsing"],
+     "correct": 1},
+    {"id": 8, "question": "Which of the following is a principal source of optimization in a compiler?",
+     "options": ["Increasing the number of tokens", "Eliminating common subexpressions, dead code, and loop invariant code", "Adding more grammar rules", "Reducing the number of states in the DFA"],
+     "correct": 1},
+    {"id": 9, "question": "Data flow analysis in code optimization is used to:",
+     "options": ["Tokenize the source program", "Gather information about how data values are defined and used across the program", "Convert NFA to DFA", "Build the parse tree"],
+     "correct": 1},
+    {"id": 10, "question": "Which storage allocation strategy uses a stack-based model for managing activation records?",
+     "options": ["Static allocation", "Heap allocation", "Stack (dynamic) allocation", "Register allocation"],
+     "correct": 2},
+    {"id": 11, "question": "An activation record (stack frame) does NOT typically contain:",
+     "options": ["Local variables of the function", "Return address", "Source code of the program", "Actual parameters passed to the function"],
+     "correct": 2},
+    {"id": 12, "question": "Which parameter passing mechanism passes the memory address of the actual argument?",
+     "options": ["Call by value", "Call by reference", "Call by value-result", "Call by name"],
+     "correct": 1},
+    {"id": 13, "question": "In code generation, register allocation refers to:",
+     "options": ["Assigning memory addresses to variables", "Deciding which variables should reside in registers at each point in the program", "Generating three-address code from syntax trees", "Constructing the symbol table entries"],
+     "correct": 1},
+    {"id": 14, "question": "The 'source language issues' that affect runtime storage include:",
+     "options": ["Only the number of keywords in the language", "Scope rules, parameter passing mechanisms, and whether recursion is allowed", "The number of tokens produced by the lexer", "The type of parsing technique used"],
+     "correct": 1},
+    {"id": 15, "question": "A flow graph in code optimization is constructed by:",
+     "options": ["Converting a DFA to an NFA", "Connecting basic blocks with directed edges based on control flow", "Building a syntax-directed definition table", "Performing type checking on expressions"],
+     "correct": 1},
+    {"id": 16, "question": "Loop optimization is important because:",
+     "options": ["Loops contain the lexical analyzer rules", "Programs spend most execution time inside loops, so optimizing them has the greatest performance impact", "Loops define the grammar of the language", "Loops are the only place where symbol tables are used"],
+     "correct": 1},
+    {"id": 17, "question": "Dead code elimination is an optimization that:",
+     "options": ["Removes variables from the symbol table", "Removes instructions whose results are never used in the program", "Eliminates all jump instructions", "Removes duplicate tokens from the source"],
+     "correct": 1},
+    {"id": 18, "question": "Which of the following is TRUE about static storage allocation?",
+     "options": ["Memory is allocated and freed at runtime", "The size and location of all data objects are fixed at compile time", "It uses a heap memory manager", "It supports dynamic data structures like linked lists"],
+     "correct": 1},
+    {"id": 19, "question": "Code motion (loop-invariant code motion) optimization moves:",
+     "options": ["Dead code to the end of the program", "Computations whose result does not change within a loop to outside the loop", "All assignments inside loops to global scope", "Loop control variables into registers permanently"],
+     "correct": 1},
+    {"id": 20, "question": "In data flow analysis, 'reaching definitions' refers to:",
+     "options": ["The set of variables that are live at the exit of a block", "The set of definitions that may reach a particular point in the program without being killed", "The set of all constant expressions in the program", "The set of common subexpressions in a basic block"],
+     "correct": 1},
+    {"id": 21, "question": "The purpose of a code generator in a compiler is to:",
+     "options": ["Convert tokens into a parse tree", "Translate intermediate representation into target machine code or assembly", "Perform lexical analysis of source input", "Build the symbol table for the program"],
+     "correct": 1},
+    {"id": 22, "question": "Which of the following is an example of a 'peephole optimization'?",
+     "options": ["Inlining function calls throughout the program", "Replacing a jump to a jump with a single direct jump in a small window of instructions", "Moving loop-invariant code outside the loop", "Eliminating common subexpressions across basic blocks"],
+     "correct": 1},
+    {"id": 23, "question": "In static allocation, which type of language feature CANNOT be supported?",
+     "options": ["Simple integer variables", "Recursive function calls with local variables", "Global variables", "Constants defined at compile time"],
+     "correct": 1},
+    {"id": 24, "question": "What does 'strength reduction' mean in the context of code optimization?",
+     "options": ["Replacing a weak type with a strong type", "Replacing an expensive operation with a cheaper equivalent (e.g., replacing multiplication with addition in loops)", "Reducing the number of basic blocks in a flow graph", "Reducing the size of the symbol table"],
+     "correct": 1},
+    {"id": 25, "question": "The 'use-definition chain' (UD chain) in data flow analysis links:",
+     "options": ["Each token to its grammar rule", "Each use of a variable to all definitions that can reach that use", "Each basic block to its successor blocks", "Each function call to its activation record"],
+     "correct": 1},
+    {"id": 26, "question": "Which of the following correctly describes 'heap allocation'?",
+     "options": ["Memory is allocated in LIFO order using a stack", "Memory is allocated and deallocated in arbitrary order at runtime to support dynamic data structures", "All memory sizes are fixed at compile time", "Memory is allocated only for global variables"],
+     "correct": 1},
+    {"id": 27, "question": "In a flow graph, a 'loop' is identified by:",
+     "options": ["Any path that starts and ends at the same node (back edge in depth-first traversal)", "Any basic block with more than one predecessor", "Any block that contains a conditional branch", "Any block that contains an assignment statement"],
+     "correct": 0},
+    {"id": 28, "question": "'Common subexpression elimination' (CSE) optimization works by:",
+     "options": ["Replacing all variables with constants", "Computing a repeated expression only once and reusing the stored result", "Removing all expressions from inside loops", "Replacing multiplication with repeated addition"],
+     "correct": 1},
+    {"id": 29, "question": "Which of the following is a global optimization technique (as opposed to local)?",
+     "options": ["Peephole optimization within a basic block", "Common subexpression elimination within a single basic block", "Data flow analysis across multiple basic blocks and the entire flow graph", "DAG construction within one basic block"],
+     "correct": 2},
+    {"id": 30, "question": "The 'next-use' information in code generation is important for:",
+     "options": ["Building the lexical analyzer rules", "Determining when a variable's current value in a register is no longer needed, enabling register reuse", "Constructing the SLR parsing table", "Evaluating attribute grammars in syntax-directed definitions"],
+     "correct": 1},
+]
+
+# =====================================================================================
 # --- ☁️ GOOGLE SHEETS HELPER FUNCTIONS ---
 # =====================================================================================
 
@@ -1221,6 +1318,8 @@ def render_quiz_selection_page():
              "20 random questions from a bank of 40"),
             ("Quiz 03", "Quiz 3", "SDT, Intermediate Code & Type Systems",
              "20 random questions from a bank of 30"),
+            ("Quiz 04", "Quiz 4", "Runtime Storage, Code Generation & Optimization",
+             "20 random questions from a bank of 30"),
         ]
 
     for quiz_key, quiz_label, topic, detail in quizzes:
@@ -1322,6 +1421,7 @@ def proceed_to_quiz(name, reg_no):
         ("Computer Science",       "Quiz 01"): (CSE_QUESTION_BANK,        "CSE_Quiz01"),
         ("Computer Science",       "Quiz 02"): (CSE_QUIZ02_QUESTION_BANK, "CSE_Quiz02"),
         ("Computer Science",       "Quiz 03"): (CSE_QUIZ03_QUESTION_BANK, "CSE_Quiz03"),
+        ("Computer Science",       "Quiz 04"): (CSE_QUIZ04_QUESTION_BANK, "CSE_Quiz04"),
     }
     question_bank, sheet_name = bank_map.get((dept, quiz), (NDT_QUESTION_BANK, "NDT_Quiz01"))
 
@@ -1620,6 +1720,7 @@ def render_admin_dashboard():
             "CSE - Quiz 01 (Lexical Analysis)":             (CSE_QUESTION_BANK,        "CSE_Quiz01"),
             "CSE - Quiz 02 (Syntax Analysis)":              (CSE_QUIZ02_QUESTION_BANK, "CSE_Quiz02"),
             "CSE - Quiz 03 (Intermediate Code & Types)":    (CSE_QUIZ03_QUESTION_BANK, "CSE_Quiz03"),
+            "CSE - Quiz 04 (Runtime, Code Gen & Optimization)": (CSE_QUIZ04_QUESTION_BANK, "CSE_Quiz04"),
         }
         dept_qb = st.selectbox("Select Quiz:", list(qb_choices.keys()), key="qb_dept")
         selected_bank, dept_name = qb_choices[dept_qb]
