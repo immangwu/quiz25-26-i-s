@@ -1530,8 +1530,9 @@ def initialize_spreadsheet():
         # Define required sheets for all quizzes
         headers = ["timestamp", "student_name", "register_number", "score", "total_questions", "answers_json", "questions_json"]
         sheets_config = {
-            "NDT_Quiz01": headers, "NDT_Quiz02": headers, "NDT_Quiz03": headers,
-            "CSE_Quiz01": headers, "CSE_Quiz02": headers, "CSE_Quiz03": headers,
+            "NDT_Quiz01": headers, "NDT_Quiz02": headers, "NDT_Quiz03": headers, "NDT_Quiz04": headers,
+            "EMM_Quiz01": headers, "EMM_Quiz02": headers, "EMM_Quiz03": headers, "EMM_Quiz04": headers,
+            "CSE_Quiz01": headers, "CSE_Quiz02": headers, "CSE_Quiz03": headers, "CSE_Quiz04": headers,
         }
         
         existing_sheets = [ws.title for ws in spreadsheet.worksheets()]
