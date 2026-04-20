@@ -2191,7 +2191,9 @@ def render_admin_dashboard():
             
             st.markdown("### Recent Submissions")
             display_df = df[['timestamp', 'student_name', 'register_number', 'score', 'total_questions']].copy()
-            display_df['percentage'] = (display_df['score'] / display_df['total_questions'].replace(0, float('nan')) * 100).round(2)
+            display_df['score'] = pd.to_numeric(display_df['score'], errors='coerce')
+            display_df['total_questions'] = pd.to_numeric(display_df['total_questions'], errors='coerce').replace(0, float('nan'))
+            display_df['percentage'] = (display_df['score'] / display_df['total_questions'] * 100).round(2)
             st.dataframe(display_df, use_container_width=True)
             
             csv_bytes = df.to_csv(index=False).encode('utf-8')
