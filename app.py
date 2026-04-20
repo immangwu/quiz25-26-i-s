@@ -2042,7 +2042,7 @@ def render_results_page():
                 if st.session_state.answers[i] is not None and st.session_state.answers[i] == q['correct'])
     
     total_questions = len(st.session_state.questions)
-    percentage = (score / total_questions) * 100
+    percentage = (score / total_questions * 100) if total_questions > 0 else 0
     
     st.balloons()
     st.title("🎉 Quiz Submitted Successfully!")
@@ -2191,7 +2191,7 @@ def render_admin_dashboard():
             
             st.markdown("### Recent Submissions")
             display_df = df[['timestamp', 'student_name', 'register_number', 'score', 'total_questions']].copy()
-            display_df['percentage'] = (display_df['score'] / display_df['total_questions'] * 100).round(2)
+            display_df['percentage'] = (display_df['score'] / display_df['total_questions'].replace(0, float('nan')) * 100).round(2)
             st.dataframe(display_df, use_container_width=True)
             
             csv_bytes = df.to_csv(index=False).encode('utf-8')
